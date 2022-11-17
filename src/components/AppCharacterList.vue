@@ -1,12 +1,22 @@
 <script>
+
+import {store} from '../data/store'
+
 export default {
   name: 'AppCharacterList',
+  data(){
+    return{
+      store
+    }
+  }
 }
 </script>
 
 
 <template>
-  <div>MAIN</div>
+  <div class="container">
+
+  </div>
 </template>
 
 
