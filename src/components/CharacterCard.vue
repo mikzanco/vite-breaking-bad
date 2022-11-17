@@ -9,9 +9,11 @@ export default {
 
 <template>
 <!-- img name category  status -->
-  <div class="mz-card col-2">
+  <div class="mz-card col-2 align-content-center">
     <img :src="character.img" :alt="character.name">
-    {{character.name}}
+    <p class="mb-3 text-center">{{character.name}}</p>
+    <p class="mb-3 text-sm-center">{{character.category}}</p>
+    <p class="mb-3 text-sm-center">{{character.status}}</p>
   </div>
  
 </template>
