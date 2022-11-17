@@ -11,9 +11,9 @@ export default {
 <!-- img name category  status -->
   <div class="mz-card col-2 align-content-center">
     <img :src="character.img" :alt="character.name">
-    <p class="mb-3 text-center">{{character.name}}</p>
-    <p class="mb-3 text-sm-center">{{character.category}}</p>
-    <p class="mb-3 text-sm-center">{{character.status}}</p>
+    <p class="mb-3 text-center text-uppercase">{{character.name}}</p>
+    <p class="mb-2 fs-6 text-center text-secondary">{{character.category}}</p>
+    <p class="mb-4 fs-6 text-center text-secondary">{{character.status}}</p>
   </div>
  
 </template>
