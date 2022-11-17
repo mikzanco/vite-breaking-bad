@@ -11,6 +11,7 @@ import AppCharacterList from './components/AppCharacterList.vue'
 
 
 
+
 export default {
   name: 'App',
   data(){
@@ -28,11 +29,12 @@ export default {
   },
   methods:{
     getCharacter(){
+      store.isLoaded = false;
       axios.get(store.apiUrl)
         .then(result =>{
           
           store.characterListData = result.data
-          console.log(store.characterListData);
+          store.isLoaded = true;
         })
         .catch(error =>{
           console.log(error);
