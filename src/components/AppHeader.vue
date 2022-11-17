@@ -9,7 +9,7 @@ export default {
 
 <template>
   <header>
-    <div class="container py-2 d-flex">
+    <div class="container py-4 d-flex">
       <img src="/logo.svg" alt="">
       <h1>{{title}}</h1>
     </div>
