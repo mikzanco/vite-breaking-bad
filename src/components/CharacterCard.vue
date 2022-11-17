@@ -11,8 +11,8 @@ export default {
 <!-- img name category  status -->
   <div class="mz-card col-2 align-content-center">
     <img :src="character.img" :alt="character.name">
-    <p class="mb-3 text-center text-uppercase">{{character.name}}</p>
-    <p class="mb-2 fs-6 text-center text-secondary">{{character.category}}</p>
+    <p class="mt-2 fs-5 mb-4 text-center text-uppercase">{{character.name}}</p>
+    <p class="mb-1 fs-6 text-center text-secondary">{{character.category}}</p>
     <p class="mb-4 fs-6 text-center text-secondary">{{character.status}}</p>
   </div>
  
@@ -25,13 +25,13 @@ export default {
   @use '../style/partials/variables' as *;
 
   .mz-card{
-    height: 300px;
+    height: 350px;
     background-color: $primary-color;
     justify-content: center;
     margin: 10px 5px;
     img{
       max-width: 99%;
-      margin-top: 10px;
+      margin-top: 5px;
     }
   }
 
