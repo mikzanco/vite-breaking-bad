@@ -23,7 +23,7 @@ export default {
   
   <div class="container">
     <div class="numberChar d-flex align-items-center p-4">
-      Found ... characters
+      <p>Found {{store.characterListData.length}} characters</p> 
     </div>
     <div v-if="store.isLoaded" class="row d-flex justify-content-around">
       <CharacterCard 

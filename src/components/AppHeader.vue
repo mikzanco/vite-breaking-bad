@@ -1,8 +1,16 @@
 <script>
+
+import {store} from '../data/store'
+
 export default {
   name: 'AppHeader',
   props:{
     title: String
+  },
+  data(){
+    return{
+      store
+    }
   }
 }
 </script>
