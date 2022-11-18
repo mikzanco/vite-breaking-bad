@@ -16,21 +16,14 @@ export default {
 </script>
 
 <template>
-  <header>
-    <div class="container py-4 d-flex">
+  <header class="d-flex">
+    <div class="container py-4 d-flex d-block">
       <img src="/logo.svg" alt="">
       <h1>{{title}}</h1>
     </div>
-    <div class="input-group mx-5 mb-3">
-      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">Select a Category</button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Separated link</a></li>
-        </ul>
-      </div>
+
+    
+    
     
   </header>
   
